@@ -12,6 +12,7 @@ import { experiences } from "../constants";
 import { SectionWrapper } from "../hoc";
 import { textVariant } from "../utils/motion";
 
+// Experience details card
 const ExperienceCard = ({ experience }) => {
   return (
     <VerticalTimelineElement
@@ -70,8 +71,10 @@ const Experience = () => {
 
       <div className='mt-20 flex flex-col'>
         <VerticalTimeline>
+          {/* Experience Time Line (white line) */}
           {experiences.map((experience, index) => (
             <ExperienceCard
+              // Experience Card (content card) defined above
               key={`experience-${index}`}
               experience={experience}
             />

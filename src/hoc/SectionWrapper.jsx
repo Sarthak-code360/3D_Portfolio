@@ -5,6 +5,7 @@ import { staggerContainer } from "../utils/motion";
 
 const StarWrapper = (Component, idName) =>
   function HOC() {
+    // Responsible for all the animations and design on page
     return (
       <motion.section
         variants={staggerContainer()}

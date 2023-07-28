@@ -47,13 +47,15 @@ const About = () => {
         variants={fadeIn("", "", 0.1, 1)}
         className='mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]'
       >
-        I'm a skilled software developer with experience in TypeScript and
-        JavaScript, and expertise in frameworks like React, Node.js, and
-        Three.js. I'm a quick learner and collaborate closely with clients to
-        create efficient, scalable, and user-friendly solutions that solve
-        real-world problems. Let's work together to bring your ideas to life!
+        I'm a skilled software developer with experience in JavaScript, and expertise in frameworks like React, Angular, Node.js, and Three.js. I'm a quick learner and passionate about leveraging my skills and expertise to create innovative solutions that drive business growth and enhance user experiences. With a strong foundation in computer science and programming, I have successfully contributed to various projects throughout my career.
+
+        My problem-solving aptitude and attention to detail enable me to identify and rectify potential issues during the development process, ensuring smooth and efficient project delivery.
+        In addition to my technical expertise, I possess strong communication skills, which are instrumental in bridging the gap between technical and non-technical stakeholders. I am adept at translating complex technical concepts into accessible language, fostering effective communication and teamwork.
+
+        If you are looking for a dedicated software development professional with a proven track record of delivering high-quality solutions, I would welcome the chance to connect and explore how I can contribute to your organization's success. Let's keep learning, growing, and conquering new heights together!
       </motion.p>
 
+      {/* Service Cards */}
       <div className='mt-20 flex flex-wrap gap-10'>
         {services.map((service, index) => (
           <ServiceCard key={service.title} index={index} {...service} />
