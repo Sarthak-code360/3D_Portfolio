@@ -202,58 +202,58 @@ const testimonials = [
 
 const projects = [
   {
-    name: "Car Rent",
+    name: "Jarvis: Virtual Assistant",
     description:
-      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+      "Jarvis is a cutting-edge virtual assistant designed to simplify your life and boost your productivity. Developed entirely in Python, Jarvis comes packed with over 30 powerful features to assist you with a wide range of tasks. Whether it's managing your schedule, answering questions, automating repetitive tasks, or even just having a friendly conversation, Jarvis has got you covered.",
     tags: [
       {
-        name: "react",
+        name: "python",
         color: "blue-text-gradient",
       },
       {
-        name: "mongodb",
+        name: "NLP",
         color: "green-text-gradient",
       },
       {
-        name: "tailwind",
+        name: "voice recognition",
         color: "pink-text-gradient",
       },
     ],
     image: carrent,
-    source_code_link: "https://github.com/",
+    source_code_link: "https://github.com/Sarthak-code360/Jarvis_Virtual_Assistant",
   },
   {
-    name: "Job IT",
+    name: "SpaceX: Launch Tracker",
     description:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+      "This Web App is a state-of-the-art application built using the popular JavaScript framework ReactJS. It  is built with the latest technologies and follows best practices to ensure speed, reliability, and user satisfaction. This app allows space enthusiasts and curious minds to stay up-to-date with the latest SpaceX rocket launches, missions, and important details.",
     tags: [
       {
-        name: "react",
+        name: "reactjs",
         color: "blue-text-gradient",
       },
       {
-        name: "restapi",
+        name: "css",
         color: "green-text-gradient",
       },
       {
-        name: "scss",
+        name: "real-time updates",
         color: "pink-text-gradient",
       },
     ],
     image: jobit,
-    source_code_link: "https://github.com/",
+    source_code_link: "https://github.com/Sarthak-code360/SpaceX_WebApp",
   },
   {
-    name: "Trip Guide",
+    name: "Task Tracker",
     description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+      "This Mobile App is built with React Native's cross-platform capabilities, ensuring that you get a consistent and native-like feel on both Android and iOS devices. Stay organized, boost your productivity, and never let important tasks slip. Building a functional app would require development using React Native, database integration, API connectivity, and UI/UX design for a complete and robust experience.",
     tags: [
       {
-        name: "nextjs",
+        name: "react-native",
         color: "blue-text-gradient",
       },
       {
-        name: "supabase",
+        name: "figma",
         color: "green-text-gradient",
       },
       {
@@ -262,7 +262,7 @@ const projects = [
       },
     ],
     image: tripguide,
-    source_code_link: "https://github.com/",
+    source_code_link: "https://github.com/Sarthak-code360/ReactNativeApp",
   },
 ];
 
