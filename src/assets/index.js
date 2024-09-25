@@ -25,7 +25,7 @@ import threejs from "./tech/threejs.svg";
 import elgaroma from "./company/elgaroma.png";
 import ibm from "./company/ibm.png";
 import incubator from "./company/incubator.png";
-import trilogy from "./company/trilogy.png";
+import mazout from "./company/mazout.png";
 
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
@@ -57,7 +57,7 @@ export {
   elgaroma,
   ibm,
   incubator,
-  trilogy,
+  mazout,
   carrent,
   jobit,
   tripguide,

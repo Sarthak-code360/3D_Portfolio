@@ -16,9 +16,8 @@ import {
   figma,
   python,
   flask,
-  trilogy,
+  mazout,
   elgaroma,
-  // mazout,
   ibm,
   incubator,
   carrent,
@@ -124,8 +123,8 @@ const experiences = [
   {
     title: "Software Engineer",
     company_name: "Mazout",
-    icon: ibm,
-    iconBg: "#383E56",
+    icon: mazout,
+    iconBg: "#FFF",
     date: "Jun 2024 - Present",
     points: [
       "Led the full-stack development of a React Native application using Expo, TypeScript, and JavaScript, integrating with a Node.js backend via gRPC for seamless real-time communication.",
@@ -138,7 +137,7 @@ const experiences = [
     title: "Software Developer Intern",
     company_name: "Innovation Incubator",
     icon: incubator,
-    iconBg: "#E6DEDD",
+    iconBg: "#FFF",
     date: "May 2023 - July 2023",
     points: [
       "Developing and maintaining the software called IMS using Angular, Node.js, and other related technologies.",
@@ -151,7 +150,7 @@ const experiences = [
     title: "React Native Developer Intern",
     company_name: "Elgaroma",
     icon: elgaroma,
-    iconBg: "#E6DEDD",
+    iconBg: "#000",
     date: "Mar 2023 - Apr 2023",
     points: [
       "Developing and maintaining web applications using React Native and other related technologies.",
@@ -164,7 +163,7 @@ const experiences = [
     title: "SalesForce Developer Intern",
     company_name: "SmartBridge IBM",
     icon: ibm,
-    iconBg: "#383E56",
+    iconBg: "#FFF",
     date: "May 2023 - Jun 2023",
     points: [
       "Have honed my skills in various aspects of the Salesforce platform, empowering businesses with robust and customized solutions.",
