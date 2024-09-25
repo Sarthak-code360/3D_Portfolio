@@ -17,8 +17,8 @@ import {
   python,
   flask,
   trilogy,
-  // mazout,
   elgaroma,
+  // mazout,
   ibm,
   incubator,
   carrent,
@@ -124,7 +124,7 @@ const experiences = [
   {
     title: "Software Engineer",
     company_name: "Mazout",
-    icon: trilogy,
+    icon: ibm,
     iconBg: "#383E56",
     date: "Jun 2024 - Present",
     points: [
