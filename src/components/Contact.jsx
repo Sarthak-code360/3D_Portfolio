@@ -36,9 +36,9 @@ const Contact = () => {
 
         // EmailJS.com
         // ServiceID
-        import.meta.env.VITE_APP_EMAILJS_PUBLIC_KEY,
+        'service_07f44c9',
         // TemplateID
-        import.meta.env.VITE_APP_EMAILJS_PUBLIC_KEY,
+        'template_2ql1fgx',
         {
           from_name: form.name,
           to_name: "Sarthak Mishra",
@@ -47,6 +47,7 @@ const Contact = () => {
           message: form.message,
         },
         // PublicID
+        'kUQNPNbKkMzpK_dDC',
         import.meta.env.VITE_APP_EMAILJS_PUBLIC_KEY
       )
       .then(

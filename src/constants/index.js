@@ -17,6 +17,7 @@ import {
   python,
   flask,
   trilogy,
+  // mazout,
   elgaroma,
   ibm,
   incubator,
@@ -121,16 +122,29 @@ const technologies = [
 
 const experiences = [
   {
-    title: "React.js Developer Intern",
-    company_name: "Triology",
+    title: "Software Engineer",
+    company_name: "Mazout",
     icon: trilogy,
     iconBg: "#383E56",
-    date: "Dec 2022 - Feb 2023",
+    date: "Jun 2024 - Present",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Developed a SpaceX Launch Tracker landing page using ReactJS. The landing page provides users with a comprehensive list of all SpaceX launches, including both past and upcoming launches.",
-      "Each launch entry displays essential information, such as the launch date, time, and landing status.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
+      "Led the full-stack development of a React Native application using Expo, TypeScript, and JavaScript, integrating with a Node.js backend via gRPC for seamless real-time communication.",
+      "Implemented Bluetooth-based hardware authentication and real-time data streaming from devices to the app, leveraging MongoDB for data storage and Socket.IO for real-time updates.",
+      "Developed features to track GPS, Geofencing, Immobilization, monitor hardware battery health, and ensure continuous device connectivity, providing comprehensive telemetry and analytics.",
+      "Engineered a robust system architecture to handle hardware-to-server data flow, optimizing app performance and ensuring a seamless user experience with dynamic data presentation.",
+    ],
+  },
+  {
+    title: "Software Developer Intern",
+    company_name: "Innovation Incubator",
+    icon: incubator,
+    iconBg: "#E6DEDD",
+    date: "May 2023 - July 2023",
+    points: [
+      "Developing and maintaining the software called IMS using Angular, Node.js, and other related technologies.",
+      "Working in a team environment, I actively collaborated with fellow developers, project managers, and stakeholders. I participated in code reviews and provided valuable feedback to enhance code quality and project efficiency.",
+      "Took on the responsibility of identifying and resolving bugs and issues within the IMS. Engaged in troubleshooting activities to ensure a smooth user experience.",
+      "Embraced Agile development practices, participating in daily stand-ups, sprint planning, and retrospectives. This Agile approach allowed the team to adapt quickly to changing requirements and deliver incremental updates to the IMS.",
     ],
   },
   {
@@ -151,26 +165,14 @@ const experiences = [
     company_name: "SmartBridge IBM",
     icon: ibm,
     iconBg: "#383E56",
-    date: "May 2023 - Jul 2023",
+    date: "May 2023 - Jun 2023",
     points: [
       "Have honed my skills in various aspects of the Salesforce platform, empowering businesses with robust and customized solutions.",
       "Have hands-on experience in creating visually appealing and functional Visualforce pages and components. These components enhance the user experience and streamline workflows, contributing to increased productivity.",
       "With a strong foundation in CRM, data management, security, Apex, and Visualforce, I am equipped to tackle complex Salesforce projects and deliver exceptional results.",
     ],
   },
-  {
-    title: "Software Developer Intern",
-    company_name: "Innovation Incubator",
-    icon: incubator,
-    iconBg: "#E6DEDD",
-    date: "May 2023 - Present",
-    points: [
-      "Developing and maintaining the software called IMS using Angular, Node.js, and other related technologies.",
-      "Working in a team environment, I actively collaborated with fellow developers, project managers, and stakeholders. I participated in code reviews and provided valuable feedback to enhance code quality and project efficiency.",
-      "Took on the responsibility of identifying and resolving bugs and issues within the IMS. Engaged in troubleshooting activities to ensure a smooth user experience.",
-      "Embraced Agile development practices, participating in daily stand-ups, sprint planning, and retrospectives. This Agile approach allowed the team to adapt quickly to changing requirements and deliver incremental updates to the IMS.",
-    ],
-  },
+
 ];
 
 const testimonials = [
