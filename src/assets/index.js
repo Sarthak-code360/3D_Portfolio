@@ -30,6 +30,8 @@ import mazout from "./company/mazout.png";
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
+import evMonitor from "./evMonitor.jpg";
+import whiteboard from './whiteboard.jpg';
 
 export {
   logo,
@@ -61,4 +63,6 @@ export {
   carrent,
   jobit,
   tripguide,
+  evMonitor,
+  whiteboard,
 };

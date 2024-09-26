@@ -24,6 +24,8 @@ import {
   jobit,
   tripguide,
   threejs,
+  evMonitor,
+  whiteboard,
 } from "../assets";
 
 export const navLinks = [
@@ -147,6 +149,18 @@ const experiences = [
     ],
   },
   {
+    title: "SalesForce Developer Intern",
+    company_name: "SmartBridge IBM",
+    icon: ibm,
+    iconBg: "#FFF",
+    date: "May 2023 - Jun 2023",
+    points: [
+      "Have honed my skills in various aspects of the Salesforce platform, empowering businesses with robust and customized solutions.",
+      "Have hands-on experience in creating visually appealing and functional Visualforce pages and components. These components enhance the user experience and streamline workflows, contributing to increased productivity.",
+      "With a strong foundation in CRM, data management, security, Apex, and Visualforce, I am equipped to tackle complex Salesforce projects and deliver exceptional results.",
+    ],
+  },
+  {
     title: "React Native Developer Intern",
     company_name: "Elgaroma",
     icon: elgaroma,
@@ -159,19 +173,6 @@ const experiences = [
       "Demonstrated my proficiency in state management, user interface design, and data persistence on mobile devices.",
     ],
   },
-  {
-    title: "SalesForce Developer Intern",
-    company_name: "SmartBridge IBM",
-    icon: ibm,
-    iconBg: "#FFF",
-    date: "May 2023 - Jun 2023",
-    points: [
-      "Have honed my skills in various aspects of the Salesforce platform, empowering businesses with robust and customized solutions.",
-      "Have hands-on experience in creating visually appealing and functional Visualforce pages and components. These components enhance the user experience and streamline workflows, contributing to increased productivity.",
-      "With a strong foundation in CRM, data management, security, Apex, and Visualforce, I am equipped to tackle complex Salesforce projects and deliver exceptional results.",
-    ],
-  },
-
 ];
 
 const testimonials = [
@@ -203,9 +204,63 @@ const testimonials = [
 
 const projects = [
   {
+    name: "X1: EV Monitor & Controller",
+    description:
+      "This mobile app, built with React Native's cross-platform capabilities, delivers a seamless, native-like experience on both Android and iOS. It empowers vendors to efficiently manage inventory, process orders, and verify product authenticity. The app's development involves React Native, database integration, API connectivity, and a well-crafted UI/UX design to ensure a complete and robust user experience.",
+    tags: [
+      {
+        name: "react-native",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "expo",
+        color: "green-text-gradient",
+      },
+      {
+        name: "typescript",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "ble-manager",
+        color: "blue-text-gradient",
+      },
+    ],
+    image: evMonitor,
+    source_code_link: "https://github.com/Mazout-Electric/vendor-application",
+  },
+  {
+    name: "DoodleDash: Real-time Whiteboard",
+    description:
+      "It's an innovative real-time, multi-user interactive whiteboard that allows users to draw, annotate, and share in real-time, supporting seamless collaboration. It features text recognition to convert handwritten text into computerized text, enhancing productivity across educational and professional settings. With live updates, shape recognition, undo/redo functionality, and user-specific permissions.",
+    tags: [
+      {
+        name: "nextjs",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "typescript",
+        color: "green-text-gradient",
+      },
+      {
+        name: "socket.io",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "tesseractjs",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "nodejs",
+        color: "green-text-gradient",
+      },
+    ],
+    image: whiteboard,
+    source_code_link: "https://github.com/Sarthak-code360/Doodle_Dash",
+  },
+  {
     name: "Jarvis: Virtual Assistant",
     description:
-      "Jarvis is a cutting-edge virtual assistant designed to simplify your life and boost your productivity. Developed entirely in Python, Jarvis comes packed with over 30 powerful features to assist you with a wide range of tasks. Whether it's managing your schedule, answering questions, automating repetitive tasks, or even just having a friendly conversation, Jarvis has got you covered.",
+      "Jarvis is an advanced virtual assistant designed to streamline daily tasks and enhance productivity. Built entirely in Python, it offers over 30 powerful features, from managing schedules and answering queries to automating routine processes and engaging in natural conversations. With its robust integration of AI and machine learning, Jarvis is engineered to deliver efficient, intelligent assistance across a wide range of applications.",
     tags: [
       {
         name: "python",
@@ -216,54 +271,20 @@ const projects = [
         color: "green-text-gradient",
       },
       {
-        name: "voice recognition",
+        name: "speech-recognition",
         color: "pink-text-gradient",
+      },
+      {
+        name: "automation",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "API's",
+        color: "green-text-gradient",
       },
     ],
     image: carrent,
     source_code_link: "https://github.com/Sarthak-code360/Jarvis_Virtual_Assistant",
-  },
-  {
-    name: "SpaceX: Launch Tracker",
-    description:
-      "This Web App is a state-of-the-art application built using the popular JavaScript framework ReactJS. It  is built with the latest technologies and follows best practices to ensure speed, reliability, and user satisfaction. This app allows space enthusiasts and curious minds to stay up-to-date with the latest SpaceX rocket launches, missions, and important details.",
-    tags: [
-      {
-        name: "reactjs",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "css",
-        color: "green-text-gradient",
-      },
-      {
-        name: "real-time updates",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: jobit,
-    source_code_link: "https://github.com/Sarthak-code360/SpaceX_WebApp",
-  },
-  {
-    name: "Task Tracker",
-    description:
-      "This Mobile App is built with React Native's cross-platform capabilities, ensuring that you get a consistent and native-like feel on both Android and iOS devices. Stay organized, boost your productivity, and never let important tasks slip. Building a functional app would require development using React Native, database integration, API connectivity, and UI/UX design for a complete and robust experience.",
-    tags: [
-      {
-        name: "react-native",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "figma",
-        color: "green-text-gradient",
-      },
-      {
-        name: "css",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: tripguide,
-    source_code_link: "https://github.com/Sarthak-code360/ReactNativeApp",
   },
 ];
 
