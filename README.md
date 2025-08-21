@@ -46,11 +46,11 @@ You need to have [Node.js](https://nodejs.org/) and [npm](https://www.npmjs.com/
 
 1. **Clone the repository:**
    ```sh
-   git clone https://github.com/your-username/3dfolio.git
+   git clone https://github.com/your-username/3D_Portfolio.git
    ```
 2. **Navigate to the project directory:**
    ```sh
-   cd 3dfolio
+   cd 3D_Portfolio
    ```
 3. **Install the dependencies:**
    ```sh
