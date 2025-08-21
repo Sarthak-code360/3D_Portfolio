@@ -114,7 +114,6 @@ This will build the application and push the contents of the `dist` directory to
 
 ## 🙏 Acknowledgements
 
-- This project was inspired by and based on the tutorial by [JavaScript Mastery](https://www.youtube.com/@javascriptmastery).
 - 3D models from [Sketchfab](https://sketchfab.com/).
 
 ## 🤝 Contributing
